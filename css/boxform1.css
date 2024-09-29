@@ -1,0 +1,15 @@
+.box {
+    width: 1300px;
+    height: 600px;
+    box-shadow: inset;
+    background-color: red;
+    border-radius: 0%;
+    position: relative; 
+    /* right: 300px;    */
+    top: 550px;
+    margin-left: 50px;
+    margin-right: 180px;
+    left: 150px;
+    z-index: 1;
+}
+

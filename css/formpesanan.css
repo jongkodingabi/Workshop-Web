@@ -1,0 +1,42 @@
+.form-container {
+    width: 50%; /* Sesuaikan lebar formulir sesuai kebutuhan */
+    margin: 0 auto; /* Membuat formulir berada di tengah halaman */
+    padding: 20px;
+    background-color: #f2f2f2;
+    border-radius: 8px;
+}
+
+.form-table {
+    width: 100%;
+}
+
+.form-input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.form-submit {
+    background-color: red;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.form-submit:hover {
+    background-color: yellow;
+}
+
+.form-td {
+    padding: 10px;
+}
+
+h2 {
+    text-align: center;
+}

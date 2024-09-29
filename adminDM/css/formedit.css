@@ -1,0 +1,61 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+}
+
+form {
+  margin: 50px auto;
+  width: 400px;
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+table {
+  width: 100%;
+}
+
+td {
+  padding: 10px;
+}
+
+input[type="text"],
+input[type="file"],
+input[type="submit"] {
+  width: calc(100% - 20px);
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+textarea { /* Menyesuaikan dengan tag textarea */
+  width: calc(100% - 20px); /* Lebar textarea sama dengan input text */
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type="submit"] {
+  background-color: #ff4d4d; /* merah */
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #ff1a1a; /* merah lebih gelap saat hover */
+}
+
+td[colspan="2"] {
+  text-align: center;
+}
+
+input[type="text"],
+input[type="file"] {
+  background-color: #ffe066; /* kuning */
+}

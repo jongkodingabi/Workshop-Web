@@ -1,0 +1,11 @@
+.border {
+    border-radius: 31px;
+    background: yellow;
+    box-shadow:  15px 15px 15px,
+                 -15px -15px 15px;
+  }
+
+  .border:hover {
+    transform: translateY(-10px);
+    transition: all .3s ease-out;
+  }

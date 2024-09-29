@@ -1,0 +1,56 @@
+body {
+    background-image: url("../../assets/img/danielmotor1.jpg");
+    font-family: Arial, sans-serif;
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+
+.login {
+    width: 300px;
+    margin: 50px auto;
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #ff6600; /* Oren */
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    width: 100%;
+    background-color: #ffcc00; /* Kuning */
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #ffa500; /* Warna kuning lebih terang saat hover */
+}
+
+a {
+    color: #ff6600; /* Oren */
+    text-decoration: none;
+    display: block;
+    text-align: center;
+}
+
+a:hover {
+    color: #ff4500; /* Warna oren lebih terang saat hover */
+}

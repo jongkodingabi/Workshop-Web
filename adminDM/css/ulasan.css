@@ -1,0 +1,64 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h2 {
+    text-align: center;
+    color: #333;
+  }
+  
+  .reviews-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .reviews-table th, .reviews-table td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+  }
+  
+  .reviews-table th {
+    background-color: #f2f2f2;
+    color: #333;
+  }
+  
+  .reviews-table tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  .pagination {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .pagination a {
+    display: inline-block;
+    padding: 8px 16px;
+    margin: 0 4px;
+    text-decoration: none;
+    color: white;
+    background-color: red;
+    border: 1px solid white;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+  }
+  
+  .pagination a:hover {
+    background-color: yellow;
+    color: black;
+  }
+   
+  

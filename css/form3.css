@@ -1,0 +1,98 @@
+.kontainer {
+    width: 700px;
+    height: 450px;
+    background: #fff;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.2);
+    border-radius: 2px;
+    position: relative;
+    margin-left: 30px;
+    top: 50px;
+}
+.h1 {
+    text-align: center;
+    padding: 20px 0;
+    border-bottom: 1px solid #eee;
+}
+.form {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+}
+.form label {
+    padding: 0 10px;
+    margin-top: 20px;
+}
+.form-content {
+    width: 100%;
+    height: 40px;
+    border: none;
+    border-bottom: 1px solid #333;
+    padding: 0 10px;
+    margin-top: 5px;
+}
+.form-border {
+    position: absolute;
+    bottom: 1px;
+    left: 10px;
+    width: calc(100% - 20px);
+    height: 2px;
+    background: red;
+    transform: scaleX(0);
+    transition: transform 0.5s ease-in-out;
+}
+.form-content:focus ~ .form-border,
+.form-content:valid ~ .form-border {
+    transform: scaleX(1);
+}
+#forgot-pass {
+    position: absolute;
+    top: 110%;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 0 10px;
+    color: #333;
+}
+#submit-btn {
+    position: absolute;
+    transform: translateX(-50%);
+    width: 100px;
+    height: 35px;
+    border: none;
+    border-radius: 4px;
+    background: linear-gradient(to right, red, yellow);
+    color: #fff;
+    cursor: pointer;
+    transition: background 0.5s ease-in-out;
+}
+.jajaran [id="2"] {
+    padding-right: 10px;
+}
+
+.maps {
+    position: relative;
+    top: 50px;
+    margin-right: 30px;
+}
+.jajaran {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+  }
+
+  .box {
+    width: 1300px;
+    height: 600px;
+    box-shadow: inset;
+    background-color: red;
+    border-radius: 0%;
+    position: relative; 
+    /* right: 300px;    */
+    top: 550px;
+    margin-left: 50px;
+    margin-right: 180px;
+    left: 150px;
+    z-index: 1;
+}
+

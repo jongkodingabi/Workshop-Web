@@ -1,0 +1,47 @@
+.servis {
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.tentang {
+    display: flex;
+    align-items: right;
+    justify-content: right;    
+}
+.kartu {
+    width: 350px;
+    height: 350px;
+    background: #ffbf00;
+    padding: 2rem 1.5rem;
+    transition: box-shadow .3s ease, transform .2s ease;
+   }
+   
+   .kartu-info {
+    transition: transform .2s ease, opacity .2s ease;
+   }
+   /*Text*/
+.kartu-title {
+    color: #333;
+    font-size: 1.5em;
+    font-weight: 600;
+    line-height: 2rem;
+   }
+   
+   .kartu-subtitle {
+    color: #859ba8;
+    font-size: 0.8em;
+   }
+   
+   /*Hover*/
+   .kartu:hover {
+    box-shadow: 0 20px 50px #23232333;
+   }
+   
+   .kartu:hover .kartu-info {
+    transform: translateY(-5%);
+   }
+   .about {
+    margin-left: 45px;
+   }
+   
